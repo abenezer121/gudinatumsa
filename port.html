@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Gudina Tumsa Foundation</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+  <!-- Favicons -->
+
+  <link rel="icon" type="image/gif/jpg" href="logo.jpg">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+ <style>
+.bookstitle
+{
+	color: #000;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 30px 0 60px;
+}
+
+.bookstitle::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	border-radius: 1px;
+	background: #7ac400;
+	left: 0;
+	right: 0;
+	bottom: -20px;
+}
+
+
+	.gtfcarousel
+	{
+		width:100%;
+
+	}
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 60%;
+
+
+
+  }
+
+
+  	.no-border
+	{
+		border:none;
+	}
+	.modalheader
+	{
+		font-size: 2.25rem;
+		line-height: 2rem;
+		margin-bottom:5%;
+	}
+	.modalxs
+	{
+
+		width:100%;
+		height:100%;
+		text-align:center;
+
+	}
+	.modalimage
+	{
+		display:inline-block;
+		vertical-align:middle;
+		margin-bottom:5%;
+	}
+	.icondown
+	{
+		border : solid green;
+		border-width : 0 3px 3px 0;
+		display:inline-block;
+		padding:3px;
+		position:absolute;
+		right:2%;
+
+	}
+
+	.down
+	{
+		transform : rotate(45deg);
+		-webkit-transform : rotate(45deg);
+
+	}
+
+
+</style>
+<style type="text/css">
+
+.carouselslide {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carouselslide .card {
+	color: #747d89;
+	min-height: 325px;
+	width:100%;
+
+	padding:0;
+	margin:0;
+
+}
+
+
+.carouselslide  img {
+
+	width: 100%;
+	height: 100%;
+
+}
+.carouselslide .item h4 {
+	font-size: 18px;
+}
+.carouselslide .item h4, .carousel .item p, .carousel .item ul {
+	margin-bottom: 5px;
+}
+.carouselslide .thumb-wrapper {
+	padding-bottom: 25px;
+	background: #fff;
+
+	text-align: center;
+	position: relative;
+
+}
+
+.carouselslide .thumb-content .btn {
+	color: #7ac400;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    border: 1px solid #7ac400;
+    padding: 6px 14px;
+    margin-top: 5px;
+    line-height: 16px;
+    border-radius: 20px;
+}
+.carouselslide .thumb-content .btn:hover, .carousel .thumb-content .btn:focus {
+	color: #fff;
+	background: #7ac400;
+	box-shadow: none;
+}
+.carouselslide .thumb-content .btn i {
+	font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.carouselslide .carousel-control {
+	height: 44px;
+	width: 40px;
+	background: #7ac400;
+    margin: auto 0;
+    border-radius: 4px;
+	opacity: 0.8;
+}
+.carouselslide .carousel-control:hover {
+	background: #78bf00;
+	opacity: 1;
+}
+.carouselslide .carousel-control i {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: #fff;
+	text-shadow: none;
+    font-weight: bold;
+}
+.carouselslide .item-price {
+	font-size: 13px;
+	padding: 2px 0;
+}
+.carouselslide .item-price strike {
+	opacity: 0.7;
+	margin-right: 5px;
+}
+.carouselslide .carousel-control.left i {
+	margin-left: -2px;
+}
+.carouselslide .carousel-control.right i {
+	margin-right: -4px;
+}
+
+
+.modala  a
+{
+	color : green;
+}
+
+		.show3text
+		{
+			display:none;
+		}
+		.show2text
+		{
+			display:none;
+		}
+		.show4text
+		{
+			display:none;
+		}
+		.show5text
+		{
+			display:none;
+		}
+
+			.slidecarousel .carousel
+		{
+			background: #f4f4f4;
+			padding: 15px 0;
+			text-align: center;
+}
+
+ .slidecarousel img {
+  width: 50%;
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+}
+
+ .slidecarousel img:hover {
+  -webkit-filter: none;
+  filter: none;
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+   .slidecarousel img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 575px) {
+   img {
+    width: 50%;
+  }
+}
+</style>
+
+
+</head>
+
+<body>
+  <div class="wrap">
+ <!-- ======= Hero Section ======= -->
+    <section id="hero" style="height:45vh">
+      <div class="hero-container container  align-items-center" data-aos="fade-up">
+        <h1>GTF</span></h1>
+        <h1>Portfolio</h1>
+      </div>
+    </section><!-- End Hero
+ <!--- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex align-items-center">
+		<img class="logoimage" src="logo.png"/>
+        <div class="logo mr-auto">
+          <h1 class="text-light text"><a href="index1.html"><span> GUDINA<b class="gudinatext">TUMSA.F</b> </span></a></h1>
+          <!--Uncomment below if you prefer to use an image logo
+          <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+		<nav class="nav-menu d-none d-lg-block">
+          <ul>
+           <li class="active"><a href="index1.html#hero">Home</a></li>
+           <li class="drop-down"><a href="">About</a>
+              <ul>
+                <li><a href="index1.html#about">About Us</a></li>
+                <li><a href="index1.html#testimonials">Testimonials</a></li>
+              </ul>
+           </li>
+           <li class="drop-down"><a href="">Projects</a>
+              <ul>
+                  <li><a href="projects.html#services" class ="showwoma icona" >Women Empowerment</a></li>
+                  <li><a href="projects.html#services" class ="showresourc icona"  >Water Resource Management</a></li>
+                  <li><a href="projects.html#services" class ="showeducatio icona" >Education</a></li>
+                  <li><a href="projects.html#services" class ="showmedica icona"  >Medical Mission</a></li>
+                  <li><a href="projects.html#services" class ="showenvironmen icona"  >Enviroment</a></li>
+              </ul>
+           </li>
+
+           <li><a href="#">Portfolio</a></li>
+           <li><a href="index1.html#contact">Contact us</a></li>
+		   <li>
+		   <a href="https://secure.squarespace.com/checkout/donate?donatePageId=56b0095c37013ba7c3ffb5f0&ss_cid=4392f2dd-7ea8-4c8c-90d4-9b0518cc386b&ss_cvisit=1587736043702&ss_cvr=2d02e88e-d167-4ac9-915f-e1dcb5aef40a%7C1587291153379%7C1587327307825%7C1587735737240%7C4">DONATE</a>
+          </li>
+
+          </ul>
+        </nav>
+
+
+
+
+
+      </div>
+   </header><!-- End Header -->
+
+    <main id="main">
+
+      <section id="portfolio" class="portfolio section-bg">
+       <div class="container">
+
+         <div class="section-title" data-aos="fade-down">
+           <span>Portfolio</span>
+           <h2>Portfolio</h2>
+
+         </div>
+
+         <div class="row" data-aos="fade-up" data-aos-delay="150">
+           <div class="col-lg-12 d-flex justify-content-center">
+             <ul id="portfolio-flters">
+               <li data-filter="*" >All</li>
+               <li data-filter=".filter-womanemp">women empowerment</li>
+               <li data-filter=".filter-education">education</li>
+               <li data-filter=".filter-waterdev">water development</li>
+               <li data-filter=".filter-env">enviroment</li>
+               <li data-filter=".filter-medmission"> medical missions</li>
+             </ul>
+           </div>
+         </div>
+
+         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="300">
+           <div class="col-lg-4 col-md-6 portfolio-item filter-womanemp">
+             <div class="portfolio-wrap">
+               <img src="assets/img/portfolio/emp1.JPG" class="img-fluid" alt="">
+               <div class="portfolio-info">
+                 <h4>Women Empowerment</h4>
+
+               </div>
+               <div class="portfolio-links">
+                 <a href="assets/img/portfolio/emp1.JPG" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+
+               </div>
+             </div>
+           </div>
+
+
+
+     <div class="col-lg-4 col-md-6 portfolio-item filter-womanemp">
+       <div class="portfolio-wrap">
+         <img src="assets/img/portfolio/emp2.jpg" class="img-fluid" alt="">
+           <div class="portfolio-info">
+                 <h4>Women Empowerment</h4>
+
+               </div>
+               <div class="portfolio-links">
+                 <a href="assets/img/portfolio/emp2.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                         </div>
+             </div>
+           </div>
+
+
+
+
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-womanemp">
+             <div class="portfolio-wrap">
+               <img src="assets/img/portfolio/emp3.jpg" class="img-fluid" alt="">
+                 <div class="portfolio-info">
+                       <h4>Women Empowerment</h4>
+
+                     </div>
+                     <div class="portfolio-links">
+                       <a href="assets/img/portfolio/emp3.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                               </div>
+                   </div>
+                 </div>
+
+
+
+
+                 <div class="col-lg-4 col-md-6 portfolio-item filter-womanemp">
+                   <div class="portfolio-wrap">
+                     <img src="assets/img/portfolio/emp4.png" class="img-fluid" alt="">
+                       <div class="portfolio-info">
+                             <h4>Women Empowerment</h4>
+
+                           </div>
+                           <div class="portfolio-links">
+                             <a href="assets/img/portfolio/emp4.png" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                                     </div>
+                         </div>
+                       </div>
+
+
+                       <div class="col-lg-4 col-md-6 portfolio-item filter-womanemp">
+                         <div class="portfolio-wrap">
+                           <img src="assets/img/portfolio/emp5.PNG" class="img-fluid" alt="">
+                             <div class="portfolio-info">
+                                   <h4>Women Empowerment</h4>
+
+                                 </div>
+                                 <div class="portfolio-links">
+                                   <a href="assets/img/portfolio/emp5.PNG" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                                           </div>
+                               </div>
+                             </div>
+
+
+
+
+
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-education">
+             <div class="portfolio-wrap">
+               <img src="assets/img/portfolio/edu1.JPG" class="img-fluid" alt="">
+               <div class="portfolio-info">
+                 <h4>Education</h4>
+
+               </div>
+               <div class="portfolio-links">
+                 <a href="assets/img/portfolio/edu1.JPG" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                 </div>
+             </div>
+           </div>
+
+
+
+
+                      <div class="col-lg-4 col-md-6 portfolio-item filter-education">
+                        <div class="portfolio-wrap">
+                          <img src="assets/img/portfolio/edu2.jpg" class="img-fluid" alt="">
+                          <div class="portfolio-info">
+                            <h4>Education</h4>
+
+                          </div>
+                          <div class="portfolio-links">
+                            <a href="assets/img/portfolio/edu2.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                            </div>
+                        </div>
+                      </div>
+
+       <div class="col-lg-4 col-md-6 portfolio-item filter-education">
+             <div class="portfolio-wrap">
+               <img src="assets/img/portfolio/edu3.jpg" class="img-fluid" alt="">
+               <div class="portfolio-info">
+                 <h4>Education</h4>
+
+               </div>
+               <div class="portfolio-links">
+                 <a href="assets/img/portfolio/edu3.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                   </div>
+             </div>
+           </div>
+
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-education">
+                 <div class="portfolio-wrap">
+                   <img src="assets/img/portfolio/edu4.JPG" class="img-fluid" alt="">
+                   <div class="portfolio-info">
+                     <h4>Education</h4>
+
+                   </div>
+                   <div class="portfolio-links">
+                     <a href="assets/img/portfolio/edu4.JPG" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                       </div>
+                 </div>
+               </div>
+
+
+
+               <div class="col-lg-4 col-md-6 portfolio-item filter-education">
+                     <div class="portfolio-wrap">
+                       <img src="assets/img/portfolio/edu5.PNG" class="img-fluid" alt="">
+                       <div class="portfolio-info">
+                         <h4>Education</h4>
+
+                       </div>
+                       <div class="portfolio-links">
+                         <a href="assets/img/portfolio/edu5.PNG" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                           </div>
+                     </div>
+                   </div>
+
+
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-waterdev ">
+             <div class="portfolio-wrap">
+               <img src="assets/img/portfolio/wat1.JPG" class="img-fluid" alt="">
+               <div class="portfolio-info">
+                 <h4>Water Development</h4>
+
+               </div>
+               <div class="portfolio-links">
+                 <a href="assets/img/portfolio/wat1.JPG" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+               </div>
+             </div>
+           </div>
+
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-waterdev">
+             <div class="portfolio-wrap">
+               <img src="assets/img/portfolio/wat2.jpg" class="img-fluid" alt="">
+               <div class="portfolio-info">
+                 <h4>Water Development</h4>
+
+               </div>
+               <div class="portfolio-links">
+                 <a href="assets/img/portfolio/wat2.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+               </div>
+             </div>
+           </div>
+
+
+
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-waterdev">
+             <div class="portfolio-wrap">
+               <img src="assets/img/portfolio/wat3.jpg" class="img-fluid" alt="">
+               <div class="portfolio-info">
+                 <h4>Water Development</h4>
+
+               </div>
+               <div class="portfolio-links">
+                 <a href="assets/img/portfolio/wat3.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+               </div>
+             </div>
+           </div>
+
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-waterdev">
+             <div class="portfolio-wrap">
+               <img src="assets/img/portfolio/wat4.jpg" class="img-fluid" alt="">
+               <div class="portfolio-info">
+                 <h4>Water Development</h4>
+
+               </div>
+               <div class="portfolio-links">
+                 <a href="assets/img/portfolio/wat4.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+               </div>
+             </div>
+           </div>
+
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-waterdev">
+             <div class="portfolio-wrap">
+               <img src="assets/img/portfolio/wat5.jpg" class="img-fluid" alt="">
+               <div class="portfolio-info">
+                 <h4>Water Development</h4>
+
+               </div>
+               <div class="portfolio-links">
+                 <a href="assets/img/portfolio/wat5.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+               </div>
+             </div>
+           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <div class="col-lg-4 col-md-6 portfolio-item filter-env ">
+             <div class="portfolio-wrap">
+               <img src="assets/img/portfolio/env1.jpg" class="img-fluid" alt="">
+               <div class="portfolio-info">
+                 <h4>Environment</h4>
+
+               </div>
+               <div class="portfolio-links">
+                 <a href="assets/img/portfolio/env1.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+               </div>
+             </div>
+           </div>
+
+
+
+
+
+       <div class="col-lg-4 col-md-6 portfolio-item filter-env">
+             <div class="portfolio-wrap">
+               <img src="assets/img/portfolio/env3.jpg" class="img-fluid" alt="">
+               <div class="portfolio-info">
+                 <h4>Environment</h4>
+
+               </div>
+               <div class="portfolio-links">
+                 <a href="assets/img/portfolio/env3.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+               </div>
+             </div>
+           </div>
+
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-env">
+                 <div class="portfolio-wrap">
+                   <img src="assets/img/portfolio/env2.jpg" class="img-fluid" alt="">
+                   <div class="portfolio-info">
+                     <h4>Environment</h4>
+
+                   </div>
+                   <div class="portfolio-links">
+                     <a href="assets/img/portfolio/env2.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                   </div>
+                 </div>
+               </div>
+
+
+
+               <div class="col-lg-4 col-md-6 portfolio-item filter-env">
+                     <div class="portfolio-wrap">
+                       <img src="assets/img/portfolio/env4.JPG" class="img-fluid" alt="">
+                       <div class="portfolio-info">
+                         <h4>Environment</h4>
+
+                       </div>
+                       <div class="portfolio-links">
+                         <a href="assets/img/portfolio/env4.JPG" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                       </div>
+                     </div>
+                   </div>
+
+
+
+                   <div class="col-lg-4 col-md-6 portfolio-item filter-env">
+                         <div class="portfolio-wrap">
+                           <img src="assets/img/portfolio/env5.PNG" class="img-fluid" alt="">
+                           <div class="portfolio-info">
+                             <h4>Environment</h4>
+
+                           </div>
+                           <div class="portfolio-links">
+                             <a href="assets/img/portfolio/env5.PNG" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                           </div>
+                         </div>
+                       </div>
+
+
+     <div class="col-lg-4 col-md-6 portfolio-item filter-medmission ">
+             <div class="portfolio-wrap">
+               <img src="assets/img/portfolio/med1.JPG" class="img-fluid" alt="">
+               <div class="portfolio-info">
+                 <h4>Medical Mission</h4>
+
+               </div>
+               <div class="portfolio-links">
+                 <a href="assets/img/portfolio/med1.JPG" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+               </div>
+             </div>
+           </div>
+
+
+
+
+       <div class="col-lg-4 col-md-6 portfolio-item filter-medmission">
+             <div class="portfolio-wrap">
+               <img src="assets/img/portfolio/med2.PNG" class="img-fluid" alt="">
+               <div class="portfolio-info">
+                 <h4>Medical Mission</h4>
+
+               </div>
+               <div class="portfolio-links">
+                 <a href="assets/img/portfolio/med2.PNG" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+               </div>
+             </div>
+           </div>
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-medmission">
+                 <div class="portfolio-wrap">
+                   <img src="assets/img/portfolio/med3.jpg" class="img-fluid" alt="">
+                   <div class="portfolio-info">
+                     <h4>Medical Mission</h4>
+
+                   </div>
+                   <div class="portfolio-links">
+                     <a href="assets/img/portfolio/med3.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                   </div>
+                 </div>
+               </div>
+
+
+               <div class="col-lg-4 col-md-6 portfolio-item filter-medmission">
+                     <div class="portfolio-wrap">
+                       <img src="assets/img/portfolio/med4.jpg" class="img-fluid" alt="">
+                       <div class="portfolio-info">
+                         <h4>Medical Mission</h4>
+
+                       </div>
+                       <div class="portfolio-links">
+                         <a href="assets/img/portfolio/med4.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                       </div>
+                     </div>
+                   </div>
+
+         </div>
+       </div>
+
+     </section><!-- End Portfolio Section -->
+    <!-- ======= Footer ======= -->
+    <!-- ======= Footer ======= -->
+       <footer id="footer">
+
+
+
+         <div class="footer-top">
+           <div class="container">
+             <div class="row">
+
+               <div class="col-lg-3 col-md-6 footer-contact">
+                 <h3>GTF</h3>
+                 <p>
+                   <p>   Addis Ababa, Bole Subcity<br>
+                         Yerer Bere Street<br>
+                         Woreda 14<br>
+                         House No.999<br>
+                      </p>
+                 </p>
+               </div>
+
+               <div class="col-lg-3 col-md-6 footer-links">
+                 <h4>Useful Links</h4>
+                 <ul>
+                   <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+                   <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+                   <li><i class="bx bx-chevron-right"></i> <a href="#service">Services</a></li>
+
+
+                 </ul>
+               </div>
+
+               <div class="col-lg-3 col-md-6 footer-links">
+                 <h4>Our Services</h4>
+                 <ul>
+                   <li><i class="bx bx-chevron-right"></i> <a href="#">Women empowerment</a></li>
+                   <li><i class="bx bx-chevron-right"></i> <a href="#">Education</a></li>
+                   <li><i class="bx bx-chevron-right"></i> <a href="#">Water development</a></li>
+                   <li><i class="bx bx-chevron-right"></i> <a href="#">Medical mission</a></li>
+                   <li><i class="bx bx-chevron-right"></i> <a href="#">and one more</a></li>
+                 </ul>
+               </div>
+
+               <div class="col-lg-3 col-md-6 footer-links">
+                 <h4>Our Social Networks</h4>
+                 <p>See more of Gudina Tumsa Foundation on our Social media Networks</p>
+                 <div class="social-links mt-3">
+                   <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                   <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                   <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                   <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                   <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                 </div>
+               </div>
+
+             </div>
+           </div>
+         </div>
+
+         <div class="container py-4">
+           <div class="copyright">
+             &copy; Copyright <strong><span>GTF</span></strong>. All Rights Reserved
+           </div>
+           <div class="credits">
+             <!-- All the links in the footer should remain intact. -->
+             <!-- You can delete the links only if you purchased the pro version. -->
+             <!-- Licensing information: https://bootstrapmade.com/license/ -->
+             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/plato-responsive-bootstrap-website-template/ -->
+             Designed by <a href="https://bootstrapmade.com/">at softwers</a>
+           </div>
+         </div>
+       </footer><!-- End Footer -->
+</div>
+
+
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+ <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>

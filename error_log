@@ -1,0 +1,24 @@
+[12-Oct-2020 06:49:55 UTC] PHP Notice:  Undefined index: user in /home2/gudinatumsafound/public_html/login.php on line 2
+[12-Oct-2020 06:49:55 UTC] PHP Notice:  Undefined index: pass in /home2/gudinatumsafound/public_html/login.php on line 3
+[14-Oct-2020 10:54:57 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/gudinatumsafound/public_html/next.php on line 2
+[14-Oct-2020 10:55:42 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/gudinatumsafound/public_html/next.php on line 2
+[14-Oct-2020 11:18:14 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/gudinatumsafound/public_html/next.php on line 2
+[14-Oct-2020 11:20:47 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/gudinatumsafound/public_html/next.php on line 2
+[14-Oct-2020 11:22:43 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/gudinatumsafound/public_html/next.php on line 2
+[14-Oct-2020 11:23:48 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/gudinatumsafound/public_html/next.php on line 2
+[14-Oct-2020 11:24:18 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/gudinatumsafound/public_html/next.php on line 2
+[14-Oct-2020 11:25:15 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/gudinatumsafound/public_html/next.php on line 2
+[14-Oct-2020 11:38:05 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/gudinatumsafound/public_html/next.php on line 2
+[14-Oct-2020 17:35:18 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/gudinatumsafound/public_html/next.php on line 2
+[15-Oct-2020 06:15:42 UTC] PHP Notice:  Undefined index: user in /home2/gudinatumsafound/public_html/login.php on line 2
+[15-Oct-2020 06:15:42 UTC] PHP Notice:  Undefined index: pass in /home2/gudinatumsafound/public_html/login.php on line 3
+[19-Oct-2020 11:09:53 UTC] PHP Notice:  Undefined index: user in /home2/gudinatumsafound/public_html/login.php on line 2
+[19-Oct-2020 11:09:53 UTC] PHP Notice:  Undefined index: pass in /home2/gudinatumsafound/public_html/login.php on line 3
+[19-Oct-2020 11:10:02 UTC] PHP Notice:  Undefined index: user in /home2/gudinatumsafound/public_html/login.php on line 2
+[19-Oct-2020 11:10:02 UTC] PHP Notice:  Undefined index: pass in /home2/gudinatumsafound/public_html/login.php on line 3
+[19-Oct-2020 11:10:19 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/gudinatumsafound/public_html/next.php on line 2
+[19-Oct-2020 11:28:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/gudinatumsafound/public_html/next.php on line 2
+[20-Oct-2020 07:23:25 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/gudinatumsafound/public_html/next.php on line 2
+[20-Oct-2020 07:28:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/gudinatumsafound/public_html/next.php on line 2
+[20-Oct-2020 07:43:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/gudinatumsafound/public_html/next.php on line 2
+[20-Oct-2020 12:43:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/gudinatumsafound/public_html/next.php on line 2

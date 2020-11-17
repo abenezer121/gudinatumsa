@@ -1,0 +1,2669 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Gudina Tumsa Foundation</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/gif/jpg" href="logo.jpg">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Template Main CSS File -->
+    <script language="javascript">
+
+            function bodyOnloadHandler() {
+                console.log("body onload");
+            }
+
+            window.onload = function(e) {
+                console.log("window loaded");
+            };
+        </script>
+
+    <style>
+
+
+.bookstitle
+{
+
+	color: #000;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 30px 0 60px;
+}
+
+.bookstitle::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	border-radius: 1px;
+	background: #7ac400;
+	left: 0;
+	right: 0;
+	bottom: -20px;
+}
+
+
+	.gtfcarousel
+	{
+		width:100%;
+
+	}
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 60%;
+  }
+
+
+  	.no-border
+	{
+		border:none;
+	}
+	.modalheader
+	{
+		font-size: 2.25rem;
+		line-height: 2rem;
+		margin-bottom:5%;
+	}
+	.modalxs
+	{
+
+		width:100%;
+		height:100%;
+		text-align:center;
+
+	}
+	.modalimage
+	{
+		display:inline-block;
+		vertical-align:middle;
+		margin-bottom:5%;
+	}
+	.icondown
+	{
+		border : solid green;
+		border-width : 0 3px 3px 0;
+		display:inline-block;
+		padding:3px;
+		position:absolute;
+		right:2%;
+
+	}
+
+	.down
+	{
+		transform : rotate(45deg);
+		-webkit-transform : rotate(45deg);
+
+	}
+
+
+</style>
+    <style type="text/css">
+
+.carouselslide {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carouselslide .card {
+	color: #747d89;
+	min-height: 325px;
+	width:100%;
+
+	padding:0;
+	margin:0;
+
+}
+
+
+.carouselslide  img {
+
+	width: 100%;
+	height: 100%;
+
+}
+.carouselslide .item h4 {
+	font-size: 18px;
+}
+.carouselslide .item h4, .carousel .item p, .carousel .item ul {
+	margin-bottom: 5px;
+}
+.carouselslide .thumb-wrapper {
+	padding-bottom: 25px;
+	background: #fff;
+
+	text-align: center;
+	position: relative;
+
+}
+
+.carouselslide .thumb-content .btn {
+	color: #7ac400;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    border: 1px solid #7ac400;
+    padding: 6px 14px;
+    margin-top: 5px;
+    line-height: 16px;
+    border-radius: 20px;
+}
+.carouselslide .thumb-content .btn:hover, .carousel .thumb-content .btn:focus {
+	color: #fff;
+	background: #7ac400;
+	box-shadow: none;
+}
+.carouselslide .thumb-content .btn i {
+	font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.carouselslide .carousel-control {
+	height: 44px;
+	width: 40px;
+	background: #7ac400;
+    margin: auto 0;
+    border-radius: 4px;
+	opacity: 0.8;
+}
+.carouselslide .carousel-control:hover {
+	background: #78bf00;
+	opacity: 1;
+}
+.carouselslide .carousel-control i {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: #fff;
+	text-shadow: none;
+    font-weight: bold;
+}
+.carouselslide .item-price {
+	font-size: 13px;
+	padding: 2px 0;
+}
+.carouselslide .item-price strike {
+	opacity: 0.7;
+	margin-right: 5px;
+}
+.carouselslide .carousel-control.left i {
+	margin-left: -2px;
+}
+.carouselslide .carousel-control.right i {
+	margin-right: -4px;
+}
+
+
+.modala  a
+{
+	color : green;
+}
+
+		.show3text
+		{
+			display:none;
+		}
+		.show2text
+		{
+			display:none;
+		}
+		.show4text
+		{
+			display:none;
+		}
+		.show5text
+		{
+			display:none;
+		}
+
+			.slidecarousel .carousel
+		{
+			background: #f4f4f4;
+			padding: 15px 0;
+			text-align: center;
+}
+
+ .slidecarousel img {
+  width: 50%;
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 15px 0;
+}
+
+ .slidecarousel img:hover {
+  -webkit-filter: none;
+  filter: none;
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+   .slidecarousel img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 575px) {
+   img {
+    width: 50%;
+  }
+}
+</style>
+
+
+    <style>
+h4 { font-family: 'Montserrat', sans-serif; margin: 0;}
+
+.modal,body.modal-open {
+    padding-right: 0!important
+}
+
+body.modal-open {
+    overflow: auto
+}
+
+body.scrollable {
+    overflow-y: auto
+}
+
+.modal-footer {
+	display: flex;
+	justify-content: flex-start;
+	.btn {
+		position: absolute;
+		right: 10px;
+	}
+}
+
+</style>
+
+    <style type="text/css">
+
+
+
+
+		.showresource
+		{
+			display:none;
+		}
+		.showeducation
+		{
+			display:none;
+		}
+		.showmedical
+		{
+			display:none;
+		}
+		.showenvironment
+		{
+			display:none;
+		}
+
+.icona
+{
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 10px 28px;
+
+  transition: 0.5s;
+  color: black;
+
+}
+
+.icona:hover
+{
+  color:white;
+}
+
+.mn
+{
+
+  margin-top:60px;
+}
+
+.side
+{
+  background-color: #03d7fc
+}
+
+.sds
+{
+  padding:10;
+      margin:0;
+}
+.navbar-nav
+{
+
+    margin-top:15%;
+
+}
+
+
+.content {
+
+  display: none;
+  overflow: hidden;
+
+}
+
+#more {display: none;}
+#moreres {display: none;}
+#moreedu {display: none;}
+#moreenv {display: none;}
+#moremed {display: none;}
+</style>
+
+
+
+
+    <script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+function myFunctionenv() {
+  var dots = document.getElementById("dotsenv");
+  var moreText = document.getElementById("moreenv");
+  var btnText = document.getElementById("myBtnenv");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+
+
+
+
+function myFunctionedu() {
+  var dots = document.getElementById("dotsedu");
+  var moreText = document.getElementById("moreedu");
+  var btnText = document.getElementById("myBtnedu");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+function myFunctionmed() {
+  var dots = document.getElementById("dotsmed");
+  var moreText = document.getElementById("moremed");
+  var btnText = document.getElementById("myBtnmed");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+    <script>
+$( 'a a' ).remove();
+
+document.documentElement.setAttribute("lang", "en");
+document.documentElement.removeAttribute("class");
+
+axe.run( function(err, results) {
+  console.log( results.violations );
+} );
+</script>
+    <script>
+
+
+function myFunctionres() {
+  var dots = document.getElementById("dotsres");
+  var moreText = document.getElementById("moreres");
+  var btnText = document.getElementById("myBtnres");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+</script>
+
+    <style>
+.readmore
+{
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  width: 130px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  margin-top: 1rem;
+  border: 1px solid black;
+}
+.readmore:hover
+{
+  background-color: #03d7fc;
+  border:none;
+}
+
+.btns
+{
+  display: flex;
+justify-content: center;
+
+  width : 50px;
+  height: 50px;
+  background: #f1f1f1;
+  margin:10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color : #3498db;
+  overflow : hidden;
+  position: relative;
+}
+
+ .btns img
+{
+
+  width:45px;
+
+  height:42px
+  display: block;
+     margin-top: auto;
+     margin-bottom: auto;
+
+}
+
+
+
+.btns:hover img
+{
+
+  transform:scale(1.3);
+  color:#f1f1f1;
+}
+.rf
+{
+  font-weight: bold;
+  color:black;
+}
+.fonted
+{
+}
+.pushdonate
+{
+   margin-right:60px;
+   color:#03d7fc;
+}
+.pushdonate:hover
+{
+   margin-right:60px;
+  color:#03d7fc;
+}
+.bota
+{
+  position:absolute;
+  bottom:0;
+  right:0;
+  margin-right: 12PX;
+
+}
+
+
+
+.textaa
+{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+  margin-top:20%;
+
+}
+.rev
+{
+  font-size: 12px;
+  margin-left: 5%;
+}
+.headersa
+{
+  margin-top: 15%;
+  margin-left: 15%;
+  font-weight: bold;
+}
+.cardsss
+{
+
+  position :relative;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width:300px;
+  height:600px;
+  background:#f0f1f3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* On mouse-over, add a deeper shadow */
+.cardsss:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.containerssa {
+    width: 95%;
+    margin-top:5px;
+    padding-bottom:10px;
+    color:white;
+    background-color: #00a59e;
+
+    color: #eee;
+    height: 65%;
+
+}
+
+.containerssb {
+    width: 95%;
+    margin-top:5px;
+    padding-bottom:10px;
+    color:white;
+    background-color: #ee5a2a;
+    color: #eee;
+    height : 80%;
+}
+
+.containerssc {
+    width: 95%;
+    margin-top:5px;
+    padding-bottom:10px;
+    color:white;
+    background-color: #4db5c8;
+    color: #eee;
+    height: fit-content;
+
+}
+
+.rightsss
+{
+text-align: right;
+margin-right:5px;
+}
+
+.roundimg
+{
+  border-top-left-radius: 50% 50%;
+ border-top-right-radius: 50% 50%;
+ border-bottom-right-radius: 50% 50%;
+ border-bottom-left-radius: 50% 50%;
+}
+
+
+</style>
+
+
+    <style>
+
+.team4 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+  color: #3e4555;
+}
+
+.team4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.team4 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+    text-align:center;
+	font-size: 13px;
+}
+
+.team4 img
+{
+	 display:block;
+    margin:auto;
+}
+.team4 ul li a {
+  color: #8d97ad;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.team4 ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+	color: #316ce8;
+}
+
+.rounded-circle
+{
+	width:180px;
+	height:180px;
+}
+
+
+.buth
+{
+  background-color:#03d7fc;
+  border: none;
+
+  margin-left: 45%;
+  margin-right: 45%;
+
+}
+.buth:hover
+{
+  background-color:#03d7fc;
+  border: none;
+
+
+}
+</style>
+
+    <style>
+.ball {
+  margin-top: 50px;
+  border-radius: 50%;
+
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+
+.arrow4 {
+
+margin: 15px;
+
+
+
+height: 12px;
+
+position: relative;
+
+width: 12px;
+
+}
+
+.arrow4::after {
+
+border-bottom-style: solid;
+
+border-bottom-width: 2px;
+
+border-right-style: solid;
+
+border-right-width: 2px;
+
+content: '';
+
+display: inline-block;
+
+height: 12px;
+
+left: 0;
+
+position: absolute;
+
+top: 0;
+
+width: 12px;
+
+}
+
+
+
+
+
+
+
+
+.arrow4.is-bottom {
+
+-moz-transform: rotate(45deg);
+
+-ms-transform: rotate(45deg);
+
+-webkit-transform: rotate(45deg);
+
+transform: rotate(45deg);
+
+}
+
+
+.arrow4::after,
+
+.arrow4 .arrow4::after {
+
+border-color:  #03d7fc;
+
+}
+
+
+.arrow4::before,
+
+.arrow4 .arrow4::before {
+
+background-color: #03d7fc;
+
+}
+
+
+</style>
+
+
+    <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNB_E9oeJIMXM43MFJf8dNdfekvnwI0dU&callback=initMap&libraries=&v=weekly"
+            defer
+    ></script>
+    <style type="text/css">
+  /* Set the size of the div element that contains the map */
+
+  #map {
+          margin-top: 5%;
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+</style>
+    <script>
+  // Initialize and add the map
+  function initMap() {
+    // The location of Uluru
+    const uluru = { lat: -25.344, lng: 131.036 };
+    // The map, centered at Uluru
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 4,
+      center: uluru,
+    });
+    // The marker, positioned at Uluru
+    const marker = new google.maps.Marker({
+      position: uluru,
+      map: map,
+    });
+  }
+</script>
+</head>
+
+<body onload="bodyOnloadHandler()">
+<div class="wrap">
+
+
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+        <div class="hero-container container  align-items-center" data-aos="fade-up">
+            <h1>GTF</span></h1>
+            <h2>WELCOME TO GUDINA TUMSA FOUNDATION</h2>
+            <a href="#about" class="btn-get-started scrollto">Lets Get Started</a>
+        </div>
+    </section><!-- End Hero-->
+
+    <!--- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center">
+            <img class="logoimage" src="logo.png"/>
+            <div class="logo mr-auto">
+                <h1 class="text-light text"><a href="index.html"><span> GUDINA<b class="gudinatext">TUMSA</b> </span></a></h1>
+                <h6 class="text-light text"><a href="index.html"><span  style="color:#03d7fc;"> FOUNDATION</span></a></h6>
+                <!--Uncomment below if you prefer to use an image logo
+                <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+
+            </div>
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li class="active"><a href="#hero">Home</a></li>
+                    <li class="drop-down"><a href="">About</a>
+                        <ul>
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#team">Teams</a></li>
+                        </ul>
+                    </li>
+                    <li class="drop-down"><a href="">Projects</a>
+                        <ul>
+                            <li><a href="projects.html#services" class ="showwoma icona" >Women Empowerment</a></li>
+                            <li><a href="projects.html#services" class ="showresourc icona"  >Water Resource Management</a></li>
+                            <li><a href="projects.html#services" class ="showeducatio icona" >Education</a></li>
+                            <li><a href="projects.html#services" class ="showmedica icona"  >Medical Mission</a></li>
+                            <li><a href="projects.html#services" class ="showenvironmen icona"  >Enviroment</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#partners.html">Partners</a></li>
+
+                </ul>
+            </nav>
+
+
+
+        </div>
+        <!--   <a href="" data-target="#modalIMG" data-toggle="modal" >DONATE</a>-->
+        <nav class="nav-menu d-none d-lg-block">
+            <ul style="margin-right:20px;">
+                <li class="drop-down"><a href="">Get Involved</a>
+                    <ul>
+                        <li><a href="#contact">Contact us</a></li>
+                        <li><a href="https://secure.squarespace.com/checkout/donate?donatePageId=56b0095c37013ba7c3ffb5f0&ss_cid=4392f2dd-7ea8-4c8c-90d4-9b0518cc386b&ss_cvisit=1587736043702&ss_cvr=2d02e88e-d167-4ac9-915f-e1dcb5aef40a%7C1587291153379%7C1587327307825%7C1587735737240%7C4" class="pushdonate">Donate</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header><!-- End Header -->
+
+    <main id="main">
+
+
+
+
+
+
+
+        <!-- ======= About Section ======= -->
+
+
+        <section id="about" class="about">
+            <ul class="floatleft">
+                <div class="ball"><li><a href="#asaa" class ="show1 btns" title="Our roots"> <span class="arrow4  arrow-bar is-bottom"></span></a></li></div>
+
+                <li><a href="#asaa" class ="show1 btns" title="Our roots"><img src="assets/img/about/a.png"></img></a></li>
+                <li><a href="#asa" class ="show2 btns"  title="His thoughts"><img  src="assets/img/about/b.png"></img></a></li>
+                <li><a href="#asa" class ="show3 btns"  title="The Trip"><img  src="assets/img/about/c.png"></img></a></li>
+                <li><a href="#asa" class ="show4 btns"  title="worthy of existance"><img  src="assets/img/about/d.png"></img></a></li>
+                <li><a href="#asa" class ="show5 btns"  title="Voice of the Voiceless"><img  src="assets/img/about/e.png"></img></a></li>
+            </ul>
+            <div class="container">
+
+                <div class="show1text">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img style="margin-top:17%" src="assets/img/about/1.jpg"/>
+                        </div>
+                        <div class=" col-xl-6 pt-4 pt-lg-0 d-flex align-items-stretch">
+                            <div class="content d-flex flex-column justify-content-center" data-aos="fade-left">
+                                <h3 class="rf">Our Roots</h3>
+                                <p class="fonted">
+                                    In 1992, a year after the downfall of the communist military regime, known as the Derg, Aster
+                                    and Lensa, the daughters of Gudina Tumsa, the abducted and assassinated Ethiopian church
+                                    leader, returned home after years of exile. Though the political atmosphere was still dark and
+                                    gloomy they resolved to follow in the footsteps of their father by carrying on his legacy. Their
+                                    return to Ethiopia 25 years ago resulted in the inception of the Gudina Tumsa Foundation
+                                    (GTF).
+                                    In June of 1992, thirteen years after Gudina Tumsa ‘s assassination, his remains were
+                                    exhumed from the Old Palace in Addis Ababa. His church, the Ethiopian Evangelical Church
+                                    Mekane Yesus, organized a reburial ceremony in the presence of representatives of partner
+                                    churches and organizations from around the world. His widow, Tsehay Tolassa, who had been
+                                    languishing in prison for a decade and their four children, along with many other friends and
+                                    colleagues, gathered in to mourn the tragic loss of this great man. It was a time of heartache
+                                    and sorrow—thirteen years of wandering and uncertainty, whether Gudina was alive in a secret
+                                    confinement or dead, culminated at the burial ground. His colleagues and family spent days
+                                    reminiscing about his life, teachings and ministry. Long hours were spent recalling the man
+                                    whose faith compelled him to oppose injustice and brutality committed against the defenseless
+                                    people of his country—the man who chose to stand up for justice and human rights in spite of
+                                    the many personal threats and death he faced.
+
+                                </p>
+
+                            </div>
+                            <!-- End .content-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="show2text">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="assets/img/about/4.jpg"/>
+
+                        </div>
+                        <div class=" col-xl-6 pt-4 pt-lg-0 d-flex align-items-stretch">
+                            <div class="content d-flex flex-column justify-content-center" data-aos="fade-left">
+                                <h3 class="rf">His Thoughts, Visions and Aspirations </h3>
+                                <p class="fonted">
+                                    Gudina Tumsa’s worldviews were heavily impacted by his studies in the USA which gave him
+                                    human right activists such as Pastor Dietrich Bohnhoeffer of Germany who wasin the early
+                                    1960’s, which coincided with the civil rights movement led by the likes of Martin Luther King Jr.
+                                    This exposure expanded his awareness of cultural, social and political issues and enriched his
+                                    thinking about the role of the church in society.
+                                </p>
+
+                            </div><!-- End .content-->
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="show3text">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="assets/img/about/2.jpg"/>
+                        </div>
+                        <div class=" col-xl-6 pt-4 pt-lg-0 d-flex align-items-stretch">
+                            <div class="content d-flex flex-column justify-content-center" data-aos="fade-left">
+                                <h3 class="rf">The Trip that Led to Fighting Injustice</h3>
+                                <p class="fonted">
+                                    In 1970 Gudina Tumsa travelled to Apartheid South Africa with a delegation from Europe and
+                                    North America. Being the only black delegate, he was ushered by white immigration officers to
+                                    the “Blacks Only” section which he resisted vehemently. He sat at the “Whites Only” section
+                                    along with the rest of the delegation. As one of his travel mates later testified, seeing his
+                                    towering stature (he was two meters tall) and his unflinching determination none of the
+                                    apartheid police dared to ask him to move. Upon his return from South Africa he was received
+                                    as a hero and he was featured on the country’s leading newspapers—the Ethiopian Herald and
+                                    Addis Zemen. He toured around the world exposing the evils of Apartheid and speaking out
+                                    against all forms of injustice. As he was known to possess great skills of oratory his words
+                                    captivated the minds of many and stirred the hearts of the youth to yearn for justice.
+
+
+                                </p>
+                            </div><!-- End .content-->
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="show4text">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="assets/img/about/6.jpg"/>
+                        </div>
+                        <div class=" col-xl-6 pt-4 pt-lg-0 d-flex align-items-stretch">
+                            <div class="content d-flex flex-column justify-content-center" data-aos="fade-left">
+                                <h3 class="rf">Worthy of Existence </h3>
+                                <p class="fonted">
+                                    Gudina Tumsa felt that the church should serve as a paradigm for society, an advocate for the
+                                    oppressed. The church, he stated, showed commitment to self-reliance, land reform,
+                                    overcoming enmity between different ethnic groups and concern for the outcasts. He wrote:
+                                    “The church had been practicing democracy for some time, participation by the people from the
+                                    bottom up, aspiring for justice, respect for human rights and the rule of law…” He supported his
+                                    argument by taking practical actions such as adjusting the salaries to meet the needs of the low
+                                    income employees of the central office of his church, and by encouraging the church to continue
+                                    her contributions to the development of Ethiopia through the sectors of health, education and
+                                    other services thereby preparing people for change.
+                                    In his 1974 speech in Nairobi he argued that a true biblical church had a political role to play:
+                                    “Apolitical [non-political] life is not worthy of existence, involvement is a denial of the goodness
+                                    of creation and of the reality of incarnation…. The history of the people of God in the Old
+                                    Testament starts with the liberation of a group of slaves from oppression. Nothing is more
+                                    political than this Biblical narrative.”
+                                    Gudina Tumsa’s witness to the gospel in the political context of his time meant to be ready to
+                                    pay the highest cost of discipleship. There were a number of reasons for his detention and
+                                    assassination, among other things, his Christian identity that placed him against the
+                                    Marxist-atheistic ideology perpetuated by the military government; his leadership as a
+                                    churchman with high-level contacts in the West; his refusal to serve the dictatorial regime on a
+                                    propaganda tour of Europe and his founding of an ecumenical church council independent from
+                                    state control. All this made him guilty of high treason and espionage.
+                                    Although he knew about the immense personal danger in his own country, he nevertheless
+                                    rejected leaving for exile and chose to remain with his people, his country and his church. His
+                                    martyrdom adds the depth of personal witness to his prophetic messages of faith that continue
+                                    to move hearts and minds.
+                                </p>
+                            </div><!-- End .content-->
+                        </div>
+                    </div>
+                </div>
+                <div class="show5text">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="assets/img/about/3.jpg"/>
+
+                        </div>
+                        <div class=" col-xl-6 pt-4 pt-lg-0 d-flex align-items-stretch">
+                            <div class="content d-flex flex-column justify-content-center" data-aos="fade-left">
+                                <h3 class="rf">Voice of the Voiceless </h3>
+                                <p class="fonted">
+                                    Upon his return to Ethiopia Gudina Tumsa became heavily engaged in matters of the spiritual, social, economic and political life of his people. Under the imperial government of Emperor Haile Selassie, who had ruled Ethiopia for half a century, the Ethiopian people were subjected to harsh expropriation of resources for the benefit of landlords and central authorities. Gudina Tumsa challenged the Imperial government on matters involving human rights, justice, feudalism and land reform. In 1971 he sent a letter urging Haile Selassie’s parliament to take action to rectify the injustices committed in the areas of land rights. Rev. Gudina Tumsa’s advocacy continued even
+                                    after the Marxists Leninist Derg regime came into power. His activism in this political context eventually led to his death. His Christian identity and position as a church leader with high-level contacts in the West made him a target, his refusal to serve Mengistu Hailemariam’s government by going on a propaganda tour in Europe and his founding of an ecumenical church council independent from state control made him a threat. Although he knew about the immense danger, he faces he rejected leaving his country behind and this decision led to his eventual death and martyrdom.
+                                </p>
+
+                            </div><!-- End .content-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- End About Section -->
+        <section id="cta" class="cta">
+            <div class="container">
+
+                <div class="text-center" data-aos="zoom-in">
+                    <h3>Call To Action</h3>
+
+                    <a class="btn-get-started" style="color:white" href="https://secure.squarespace.com/checkout/donate?donatePageId=56b0095c37013ba7c3ffb5f0&ss_cid=4392f2dd-7ea8-4c8c-90d4-9b0518cc386b&ss_cvisit=1587736043702&ss_cvr=2d02e88e-d167-4ac9-915f-e1dcb5aef40a%7C1587291153379%7C1587327307825%7C1587735737240%7C4">GO to GTF US</a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <div class="container containercarousel" style="background:red">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img style="margin-top:17%" src="assets/img/about/1.jpg"/>
+                            </div>
+                            <div class=" col-xl-6 pt-4 pt-lg-0 d-flex align-items-stretch">
+                                <div class="content d-flex flex-column justify-content-center" data-aos="fade-left">
+                                    <h3 class="rf">Our Roots</h3>
+                                    <p class="fonted">
+                                        In 1992, a year after the downfall of the communist military regime, known as the Derg, Aster
+                                        and Lensa, the daughters of Gudina Tumsa, the abducted and assassinated Ethiopian church
+                                        leader, returned home after years of exile. Though the political atmosphere was still dark and
+                                        gloomy they resolved to follow in the footsteps of their father by carrying on his legacy. Their
+                                        return to Ethiopia 25 years ago resulted in the inception of the Gudina Tumsa Foundation
+                                        (GTF).
+                                        In June of 1992, thirteen years after Gudina Tumsa ‘s assassination, his remains were
+                                        exhumed from the Old Palace in Addis Ababa. His church, the Ethiopian Evangelical Church
+                                        Mekane Yesus, organized a reburial ceremony in the presence of representatives of partner
+                                        churches and organizations from around the world. His widow, Tsehay Tolassa, who had been
+                                        languishing in prison for a decade and their four children, along with many other friends and
+                                        colleagues, gathered in to mourn the tragic loss of this great man. It was a time of heartache
+                                        and sorrow—thirteen years of wandering and uncertainty, whether Gudina was alive in a secret
+                                        confinement or dead, culminated at the burial ground. His colleagues and family spent days
+                                        reminiscing about his life, teachings and ministry. Long hours were spent recalling the man
+                                        whose faith compelled him to oppose injustice and brutality committed against the defenseless
+                                        people of his country—the man who chose to stand up for justice and human rights in spite of
+                                        the many personal threats and death he faced.
+                                    </p>
+
+                                </div>
+                                <!-- End .content-->
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="assets/img/about/4.jpg"/>
+
+                            </div>
+                            <div class=" col-xl-6 pt-4 pt-lg-0 d-flex align-items-stretch">
+                                <div class="content d-flex flex-column justify-content-center" data-aos="fade-left">
+                                    <h3 class="rf">His Thoughts, Visions and Aspirations </h3>
+                                    <p class="fonted">
+                                        Gudina Tumsa’s worldviews were heavily impacted by his studies in the USA which gave him
+                                        human right activists such as Pastor Dietrich Bohnhoeffer of Germany who wasin the early
+                                        1960’s, which coincided with the civil rights movement led by the likes of Martin Luther King Jr.
+                                        This exposure expanded his awareness of cultural, social and political issues and enriched his
+                                        thinking about the role of the church in society.
+                                    </p>
+
+                                </div><!-- End .content-->
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="assets/img/about/2.jpg"/>
+                            </div>
+                            <div class=" col-xl-6 pt-4 pt-lg-0 d-flex align-items-stretch">
+                                <div class="content d-flex flex-column justify-content-center" data-aos="fade-left">
+                                    <h3 class="rf">The Trip that Led to Fighting Injustice</h3>
+                                    <p class="fonted">
+                                        In 1970 Gudina Tumsa travelled to Apartheid South Africa with a delegation from Europe and
+                                        North America. Being the only black delegate, he was ushered by white immigration officers to
+                                        the “Blacks Only” section which he resisted vehemently. He sat at the “Whites Only” section
+                                        along with the rest of the delegation. As one of his travel mates later testified, seeing his
+                                        towering stature (he was two meters tall) and his unflinching determination none of the
+                                        apartheid police dared to ask him to move. Upon his return from South Africa he was received
+                                        as a hero and he was featured on the country’s leading newspapers—the Ethiopian Herald and
+                                        Addis Zemen. He toured around the world exposing the evils of Apartheid and speaking out
+                                        against all forms of injustice. As he was known to possess great skills of oratory his words
+                                        captivated the minds of many and stirred the hearts of the youth to yearn for justice.
+
+
+                                    </p>
+                                </div><!-- End .content-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="assets/img/about/6.jpg"/>
+                            </div>
+                            <div class=" col-xl-6 pt-4 pt-lg-0 d-flex align-items-stretch">
+                                <div class="content d-flex flex-column justify-content-center" data-aos="fade-left">
+                                    <h3 class="rf">Worthy of Existence </h3>
+                                    <p class="fonted">
+                                        Gudina Tumsa felt that the church should serve as a paradigm for society, an advocate for the
+                                        oppressed. The church, he stated, showed commitment to self-reliance, land reform,
+                                        overcoming enmity between different ethnic groups and concern for the outcasts. He wrote:
+                                        “The church had been practicing democracy for some time, participation by the people from the
+                                        bottom up, aspiring for justice, respect for human rights and the rule of law…” He supported his
+                                        argument by taking practical actions such as adjusting the salaries to meet the needs of the low
+                                        income employees of the central office of his church, and by encouraging the church to continue
+                                        her contributions to the development of Ethiopia through the sectors of health, education and
+                                        other services thereby preparing people for change.
+                                        In his 1974 speech in Nairobi he argued that a true biblical church had a political role to play:
+                                        “Apolitical [non-political] life is not worthy of existence, involvement is a denial of the goodness
+                                        of creation and of the reality of incarnation…. The history of the people of God in the Old
+                                        Testament starts with the liberation of a group of slaves from oppression. Nothing is more
+                                        political than this Biblical narrative.”
+                                        Gudina Tumsa’s witness to the gospel in the political context of his time meant to be ready to
+                                        pay the highest cost of discipleship. There were a number of reasons for his detention and
+                                        assassination, among other things, his Christian identity that placed him against the
+                                        Marxist-atheistic ideology perpetuated by the military government; his leadership as a
+                                        churchman with high-level contacts in the West; his refusal to serve the dictatorial regime on a
+                                        propaganda tour of Europe and his founding of an ecumenical church council independent from
+                                        state control. All this made him guilty of high treason and espionage.
+                                        Although he knew about the immense personal danger in his own country, he nevertheless
+                                        rejected leaving for exile and chose to remain with his people, his country and his church. His
+                                        martyrdom adds the depth of personal witness to his prophetic messages of faith that continue
+                                        to move hearts and minds.
+                                    </p>
+                                </div><!-- End .content-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="assets/img/about/3.jpg"/>
+
+                            </div>
+                            <div class=" col-xl-6 pt-4 pt-lg-0 d-flex align-items-stretch">
+                                <div class="content d-flex flex-column justify-content-center" data-aos="fade-left">
+                                    <h3 class="rf">Voice of the Voiceless </h3>
+                                    <p class="fonted">
+                                        Upon his return to Ethiopia Gudina Tumsa became heavily engaged in matters of the spiritual, social, economic and political life of his people. Under the imperial government of Emperor Haile Selassie, who had ruled Ethiopia for half a century, the Ethiopian people were subjected to harsh expropriation of resources for the benefit of landlords and central authorities. Gudina Tumsa challenged the Imperial government on matters involving human rights, justice, feudalism and land reform. In 1971 he sent a letter urging Haile Selassie’s parliament to take action to rectify the injustices committed in the areas of land rights. Rev. Gudina Tumsa’s advocacy continued even
+                                        after the Marxists Leninist Derg regime came into power. His activism in this political context eventually led to his death. His Christian identity and position as a church leader with high-level contacts in the West made him a target, his refusal to serve Mengistu Hailemariam’s government by going on a propaganda tour in Europe and his founding of an ecumenical church council independent from state control made him a threat. Although he knew about the immense danger, he faces he rejected leaving his country behind and this decision led to his eventual death and martyrdom.
+                                    </p>
+
+                                </div><!-- End .content-->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- End Cta Section -->
+        <!--start of slide carousel -->
+        <!-- end of slide carousel -->
+        <!-- ======= Clients Section ======= -->
+        <!-- ======= Features Section ======= -->
+        <section id="features" class="features">
+            <div class="container">
+                <div class="row">
+                    <div class = "container">
+
+                        <div class="modal fade modalxs" id="popupvision">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header no-border">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div class="modalheader">
+                                            <p>Our Vision</p>
+                                        </div>
+
+                                        <div class="image">
+                                            <img src="assets/img/vision1.png"  class="modalimage" />
+                                        </div>
+                                        <p>
+                                            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.You can create your own custom
+                                            avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+                                        </p>
+
+                                    </div>
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class = "container">
+
+                        <div class="modal fade modalxs" id="popupmission">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header no-border">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div class="modalheader">
+                                            <p>Our Mision</p>
+                                        </div>
+
+                                        <div class="image">
+                                            <img src="assets/img/mision.png"  class="modalimage" />
+                                        </div>
+                                        <p>
+                                            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.You can create your own custom
+                                            avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+                                        </p>
+
+                                    </div>
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "container">
+
+
+                        <div class="modal fade modalxs" id="popupplan">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header no-border">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div class="modalheader">
+                                            <p>Our Plan</p>
+                                        </div>
+
+                                        <div class="image">
+                                            <img src="assets/img/goal.png"  class="modalimage" />
+                                        </div>
+                                        <p>
+                                            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.You can create your own custom
+                                            avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <div class=" col-lg-4 col-md-6 d-flex align-items-stretch " data-aos="fade-up" data-aos-duration="1000">
+                        <div class="cardsss">
+                            <div class="containerssa">
+                                <h4 class="rightsss">GTF</h4>
+                                <h1 class="headersa">Our <br> <span style="color:#182f61">Mission</span></br></h1>
+                                <p class="textaa">Using Wholistic approach GTF stives to empower disadvantaged communities to see themselves as whole and capable human beings.</p>
+                            </div>
+                            <div class="bota">
+                                <a href="#" style="font-size:14px;">go to gtf legacy for more info</a>
+                            </div>
+                        </div>
+                        <!--
+                              <div class="card">
+                          <div class="card-header" style="display:table-cell; vertical-align:middle; text-align:center; background:white; border:none">
+                            <img src="assets/img/mission.png" style = " width:200px; height:200px " class="card-img-top" alt="...">
+
+                          </div>
+                          <div class="card-body">
+
+                             <h3 class="card-title" style="font-weight:bold; color:black">Our Mission</h3>
+                                 <p class="card-text fontedcard"> Using Wholistic approach GTF stives to empower disadvantaged communities to see themselves as whole and capable human beings.</p>
+                              <div class="member">
+                                <div class="member-content">
+
+                                      <a href="#"  data-toggle="modal" data-target="#popupmission" >View More</a>
+                                </div>
+                               </div>
+                              </div>
+                            </div>
+              -->
+                    </div>
+
+
+                    <div class=" col-lg-4 col-md-6 d-flex align-items-stretch " data-aos="fade-up" data-aos-duration="1500">
+                        <!--	<div class="card">
+                          <div class="card-header" style="display:table-cell; vertical-align:middle; text-align:center; background:white; border:none">
+                      <img src="assets/img/vision.png" class="card-img-top"  style="width:200px; height:200px" alt="...">
+                    </div>
+                           <div class="card-body">
+
+                           <h3 class="card-title" style="font-weight:bold; color:black">Our Vision</h3>
+                               <p class="card-text fontedcard">GTF’s vision is to see communities, who are empowered to perceive themselves as capable human beings, equipped to actively engage in all aspects of spiritual and physical human life.</p>
+                            <div class="member">
+                              <div class="member-content">
+                                <a href="#"  data-toggle="modal" data-target="#popupvision" >View More</a>
+                              </div>
+                             </div>
+                            </div>
+                          </div>
+            -->
+
+                        <div class="cardsss">
+                            <div class="containerssb">
+                                <h4 class="rightsss">GTF</h4>
+                                <h1 class="headersa">Our <br> <span style="color:#652a46">Vision</span></br></h1>
+                                <p class="textaa">GTF’s vision is to see communities, who are empowered to perceive themselves as capable human beings, equipped to actively engage in all aspects of spiritual and physical human life.</p>
+                            </div>
+                            <div class="bota">
+                                <a href="#" style="font-size:14px;">go to gtf legacy for more info</a>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class=" col-lg-4 col-md-6 d-flex align-items-stretch " data-aos="fade-up" data-aos-duration="3000">
+                        <div class="cardsss">
+                            <div class="containerssc">
+                                <h4 class="rightsss">GTF</h4>
+                                <h1 class="headersa">Our <span style="color:#1e4155"> Approach</span></h1>
+                                <p class="textaa">
+                                    <i>"...an integral human development, where the spiritual and physical needs are seen together is the only right approach to the development question in our society."</i>
+
+                                    It is based on this statement that GTF has crafted its entire approach to development within Ethiopian society.
+                                </p>
+                                <p class="rev">In Reverend Gudina Tumsa's own words: </p>
+                            </div>
+                            <div class="bota">
+                                <a href="#" style="font-size:14px;">go to gtf legacy for more info</a>
+
+                            </div>
+                        </div>
+                        <!--
+                              <div class="card">
+                        <div class="card-header" style="display:table-cell; vertical-align:middle; text-align:center; background:white; border:none">
+                          <img src="assets/img/goal.png" class="card  -img-top"  style="width:200px; height:200px" alt="...">
+
+                        </div>
+                                 <div class="card-body">
+
+                               <h3 class="card-title"  style="font-weight:bold; color:black">Our Development Approach</h3>
+                         <p  class="card-text" style="font-weight:bold">	In Reverend Gudina Tumsa's own words: </p>
+                             <p  class="card-text fontedcard">
+
+
+              <i>"...an integral human development, where the spiritual and physical needs are seen together is the only right approach to the development question in our society."</i>
+
+              It is based on this statement that GTF has crafted its entire approach to development within Ethiopian society.
+                             </p>
+                              <div class="member">
+                                <div class="member-content">
+                                  <a href="#"  data-toggle="modal" data-target="#popupplan" >View More</a>
+                                </div>
+                               </div>
+                              </div>
+                            </div>
+              -->
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Features Section -->
+
+
+
+
+
+
+
+        <section id="portfolio" class="portfolio section-bg">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-down">
+                    <span>Portfolio</span>
+                    <h2 style="color:black">Portfolio</h2>
+
+                </div>
+
+                <div class="row" data-aos="fade-up" data-aos-delay="150">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" >All</li>
+                            <li data-filter=".filter-womanemp">women empowerment</li>
+                            <li data-filter=".filter-education">education</li>
+                            <li data-filter=".filter-waterdev">water development</li>
+                            <li data-filter=".filter-env">enviroment</li>
+                            <li data-filter=".filter-medmission"> medical missions</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-womanemp">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/emp1.JPG" class="img-fluid" alt="">
+
+                            <div class="portfolio-info">
+                                <h4>Women Empowerment</h4>
+
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/emp1.JPG" data-gall="portfolioGallery" class="venobox " title="View">View</a>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-womanemp">
+                        <div class="portfolio-wrap">
+                            <!--<img src="assets/img/portfolio/emp2.jpg" class="img-fluid" alt="">-->
+                            <div class="portfolio-info">
+                                <h4>Women Empowerment</h4>
+
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/emp2.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-education">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/edu1.JPG" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Education</h4>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/edu1.JPG" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-education">
+                        <div class="portfolio-wrap">
+                            <!-- <img src="assets/img/portfolio/edu3.jpg" class="img-fluid" alt=""> -->
+                            <div class="portfolio-info">
+                                <h4>Education</h4>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/edu3.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-waterdev ">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/wat1.JPG" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Water Development</h4>
+
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/wat1.JPG" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-waterdev">
+                        <div class="portfolio-wrap">
+                            <!-- <img src="assets/img/portfolio/wat3.jpg" class="img-fluid" alt=""> -->
+                            <div class="portfolio-info">
+                                <h4>Water Development</h4>
+
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/wat3.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-env ">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/env1.jpg" class="img-fluid" alt="">
+
+                            <div class="portfolio-info">
+                                <h4>Environment</h4>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/env1.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-env">
+                        <div class="portfolio-wrap">
+                            <!-- <img src="assets/img/portfolio/env3.jpg" class="img-fluid" alt=""> -->
+                            <div class="portfolio-info">
+                                <h4>Environment</h4>
+
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/env3.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-medmission ">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/med1.JPG" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Medical Mission</h4>
+
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/med1.JPG" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-medmission">
+                        <div class="portfolio-wrap">
+                            <!-- <img src="assets/img/portfolio/med3.jpg" class="img-fluid" alt=""> -->
+                            <div class="portfolio-info">
+                                <h4>Medical Mission</h4>
+
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="View">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p style="text-align:center; "><a href="port.html" class="btn-get-started scrollto">Show More</a></p>
+        </section><!-- End Portfolio Section -->
+
+        <!--
+  <section class="books" id="books">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12" data-aos="fade-up" data-aos-delay="200">
+              <h2 class="bookstitle" style="color:white" >Buy <b>Books</b></h2>
+              <div id="myCarousel" class="carousel slide carouselslide" data-ride="carousel" data-interval="0">
+
+              <div class="carousel-inner">
+                  <div class="item carousel-item active" >
+                      <div class="row">
+                          <div class="col-sm-4">
+                              <div class="card">
+                                  <div class="card-body">
+                                      <img src="assets/img/features-2.jpg"  class="modalimage" />
+                                  </div>
+                                  <div class="thumb-wrapper">
+                                  <div class="thumb-content">
+                                      <h4>Sony Headphone</h4>
+
+                                      <p class="item-price"> <b>$23.99</b></p>
+                                        <a href="https://secure.squarespace.com/checkout/donate?donatePageId=56b0095c37013ba7c3ffb5f0&ss_cid=4392f2dd-7ea8-4c8c-90d4-9b0518cc386b&ss_cvisit=1587736043702&ss_cvr=2d02e88e-d167-4ac9-915f-e1dcb5aef40a%7C1587291153379%7C1587327307825%7C1587735737240%7C4" class="btn btn-primary">Buy</a>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-4">
+                              <div class="card">
+                                  <div class="card-body">
+                                      <img src="assets/img/features-2.jpg"  class="modalimage" />
+                                  </div>
+                                  <div class="thumb-wrapper">
+                                  <div class="thumb-content">
+                                      <h4>Sony Headphone</h4>
+
+                                      <p class="item-price"> <b>$23.99</b></p>
+                                            <a href="https://secure.squarespace.com/checkout/donate?donatePageId=56b0095c37013ba7c3ffb5f0&ss_cid=4392f2dd-7ea8-4c8c-90d4-9b0518cc386b&ss_cvisit=1587736043702&ss_cvr=2d02e88e-d167-4ac9-915f-e1dcb5aef40a%7C1587291153379%7C1587327307825%7C1587735737240%7C4" class="btn btn-primary">Buy</a>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-4">
+                              <div class="card">
+                                  <div class="card-body">
+                                      <img src="assets/img/features-2.jpg"  class="modalimage" />
+                                  </div>
+                                  <div class="thumb-wrapper">
+                                  <div class="thumb-content">
+                                      <h4>Sony Headphone</h4>
+
+                                      <p class="item-price"> <b>$23.99</b></p>
+                                            <a href="https://secure.squarespace.com/checkout/donate?fPageId=56b0095c37013ba7c3ffb5f0&ss_cid=4392f2dd-7ea8-4c8c-90d4-9b0518cc386b&ss_cvisit=1587736043702&ss_cvr=2d02e88e-d167-4ac9-915f-e1dcb5aef40a%7C1587291153379%7C1587327307825%7C1587735737240%7C4" class="btn btn-primary">Buy</a>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+
+                      </div>
+                  </div>
+
+
+
+
+                          <div class="item carousel-item ">
+                      <div class="row">
+                          <div class="col-sm-4">
+                              <div class="card">
+                                  <div class="card-body">
+                                      <img src="assets/img/features-2.jpg"  class="modalimage" />
+                                  </div>
+                                  <div class="thumb-wrapper">
+                                  <div class="thumb-content">
+                                      <h4>Sony Headphone</h4>
+
+                                      <p class="item-price"> <b>$23.99</b></p>
+                                            <a href="https://secure.squarespace.com/checkout/donate?donatePageId=56b0095c37013ba7c3ffb5f0&ss_cid=4392f2dd-7ea8-4c8c-90d4-9b0518cc386b&ss_cvisit=1587736043702&ss_cvr=2d02e88e-d167-4ac9-915f-e1dcb5aef40a%7C1587291153379%7C1587327307825%7C1587735737240%7C4" class="btn btn-primary">Buy</a>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-4">
+                              <div class="card">
+                                  <div class="card-body">
+                                      <img src="assets/img/features-2.jpg"  class="modalimage" />
+                                  </div>
+                                  <div class="thumb-wrapper">
+                                  <div class="thumb-content">
+                                      <h4>Sony Headphone</h4>
+
+                                      <p class="item-price"> <b>$23.99</b></p>
+                                            <a href="https://secure.squarespace.com/checkout/donate?donatePageId=56b0095c37013ba7c3ffb5f0&ss_cid=4392f2dd-7ea8-4c8c-90d4-9b0518cc386b&ss_cvisit=1587736043702&ss_cvr=2d02e88e-d167-4ac9-915f-e1dcb5aef40a%7C1587291153379%7C1587327307825%7C1587735737240%7C4" class="btn btn-primary">Buy</a>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-4">
+                              <div class="card">
+                                  <div class="card-body">
+                                      <img src="assets/img/features-2.jpg"  class="modalimage" />
+                                  </div>
+                                  <div class="thumb-wrapper">
+                                  <div class="thumb-content">
+                                      <h4>Sony Headphone</h4>
+
+                                      <p class="item-price"> <b>$23.99</b></p>
+                                            <a href="https://secure.squarespace.com/checkout/donate?donatePageId=56b0095c37013ba7c3ffb5f0&ss_cid=4392f2dd-7ea8-4c8c-90d4-9b0518cc386b&ss_cvisit=1587736043702&ss_cvr=2d02e88e-d167-4ac9-915f-e1dcb5aef40a%7C1587291153379%7C1587327307825%7C1587735737240%7C4" class="btn btn-primary">Buy</a>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+
+                      </div>
+                  </div>
+
+                          <div class="item carousel-item ">
+                      <div class="row">
+                          <div class="col-sm-4">
+                              <div class="card">
+                                  <div class="card-body">
+                                      <img src="assets/img/features-2.jpg"  class="modalimage" />
+                                  </div>
+                                  <div class="thumb-wrapper">
+                                  <div class="thumb-content">
+                                      <h4>Sony Headphone</h4>
+
+                                      <p class="item-price"> <b>$23.99</b></p>
+                                            <a href="https://secure.squarespace.com/checkout/donate?donatePageId=56b0095c37013ba7c3ffb5f0&ss_cid=4392f2dd-7ea8-4c8c-90d4-9b0518cc386b&ss_cvisit=1587736043702&ss_cvr=2d02e88e-d167-4ac9-915f-e1dcb5aef40a%7C1587291153379%7C1587327307825%7C1587735737240%7C4" class="btn btn-primary">Buy</a>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-4">
+                              <div class="card">
+                                  <div class="card-body">
+                                      <img src="assets/img/features-2.jpg"  class="modalimage" />
+                                  </div>
+                                  <div class="thumb-wrapper">
+                                  <div class="thumb-content">
+                                      <h4>Sony Headphone</h4>
+
+                                      <p class="item-price"> <b>$23.99</b></p>
+                                            <a href="https://secure.squarespace.com/checkout/donate?donatePageId=56b0095c37013ba7c3ffb5f0&ss_cid=4392f2dd-7ea8-4c8c-90d4-9b0518cc386b&ss_cvisit=1587736043702&ss_cvr=2d02e88e-d167-4ac9-915f-e1dcb5aef40a%7C1587291153379%7C1587327307825%7C1587735737240%7C4" class="btn btn-primary">Buy</a>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-4">
+                              <div class="card">
+                                  <div class="card-body">
+                                      <img src="assets/img/features-2.jpg"  class="modalimage" />
+                                  </div>
+                                  <div class="thumb-wrapper">
+                                  <div class="thumb-content">
+                                      <h4>Sony Headphone</h4>
+
+                                      <p class="item-price"> <b>$23.99</b></p>
+                                            <a href="https://secure.squarespace.com/checkout/donate?donatePageId=56b0095c37013ba7c3ffb5f0&ss_cid=4392f2dd-7ea8-4c8c-90d4-9b0518cc386b&ss_cvisit=1587736043702&ss_cvr=2d02e88e-d167-4ac9-915f-e1dcb5aef40a%7C1587291153379%7C1587327307825%7C1587735737240%7C4" class="btn btn-primary">Buy</a>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+
+                      </div>
+                  </div>
+
+                          <div class="item carousel-item">
+                      <div class="row">
+                          <div class="col-sm-4">
+                              <div class="card">
+                                  <div class="card-body">
+                                      <img src="assets/img/features-2.jpg"  class="modalimage" />
+                                  </div>
+                                  <div class="thumb-wrapper">
+                                  <div class="thumb-content">
+                                      <h4>Sony Headphone</h4>
+
+                                      <p class="item-price"> <b>$23.99</b></p>
+                                            <a href="https://secure.squarespace.com/checkout/donate?donatePageId=56b0095c37013ba7c3ffb5f0&ss_cid=4392f2dd-7ea8-4c8c-90d4-9b0518cc386b&ss_cvisit=1587736043702&ss_cvr=2d02e88e-d167-4ac9-915f-e1dcb5aef40a%7C1587291153379%7C1587327307825%7C1587735737240%7C4" class="btn btn-primary">Buy</a>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-4">
+                              <div class="card">
+                                  <div class="card-body">
+                                      <img src="assets/img/features-2.jpg"  class="modalimage" />
+                                  </div>
+                                  <div class="thumb-wrapper">
+                                  <div class="thumb-content">
+                                      <h4>Sony Headphone</h4>
+
+                                      <p class="item-price"> <b>$23.99</b></p>
+                                            <a href="https://secure.squarespace.com/checkout/donate?donatePageId=56b0095c37013ba7c3ffb5f0&ss_cid=4392f2dd-7ea8-4c8c-90d4-9b0518cc386b&ss_cvisit=1587736043702&ss_cvr=2d02e88e-d167-4ac9-915f-e1dcb5aef40a%7C1587291153379%7C1587327307825%7C1587735737240%7C4" class="btn btn-primary">Buy</a>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-4">
+                              <div class="card">
+                                  <div class="card-body">
+                                      <img src="assets/img/features-2.jpg"  class="modalimage" />
+                                  </div>
+                                  <div class="thumb-wrapper">
+                                  <div class="thumb-content">
+                                      <h4>Sony Headphone</h4>
+
+                                      <p class="item-price"> <b>$23.99</b></p>
+                                            <a href="https://secure.squarespace.com/checkout/donate?donatePageId=56b0095c37013ba7c3ffb5f0&ss_cid=4392f2dd-7ea8-4c8c-90d4-9b0518cc386b&ss_cvisit=1587736043702&ss_cvr=2d02e88e-d167-4ac9-915f-e1dcb5aef40a%7C1587291153379%7C1587327307825%7C1587735737240%7C4" class="btn btn-primary">Buy</a>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+
+                      </div>
+                  </div>
+
+
+
+
+              </div>
+
+        <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                  <i class="icofont-simple-left"></i>
+              </a>
+              <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                  <i class="icofont-simple-right"></i>
+              </a>
+          </div>
+          </div>
+      </div>
+
+  </div>
+  </section>
+
+  -->
+
+
+
+
+        <section id="team" class="team">
+            <div class="py-5 team4">
+                <div class="container">
+                    <div class="row justify-content-center mb-4">
+                        <div class="col-md-7 text-center">
+                            <h3 class="mb-3" style="color:#fff">Experienced & Professional Team</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- column  -->
+                        <div class="col-lg-3 mb-4">
+                            <!-- Row -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="assets/img/clients/11.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <div class="pt-2">
+                                        <h5 class="mt-4 font-weight-medium mb-0" style="color:#fff">Lensa Gudina</h5>
+                                        <h6 class="subtitle mb-3" style="color:#fff">Executive Director</h6>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Row -->
+                        </div>
+                        <!-- column  -->
+                        <!-- column  -->
+                        <div class="col-lg-3 mb-4">
+                            <!-- Row -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="assets/img/clients/11.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <div class="pt-2">
+                                        <h5 class="mt-4 font-weight-medium mb-0" style="color:#fff">Lensa Gudina</h5>
+                                        <h6 class="subtitle mb-3" style="color:#fff">Director of Finance & Administration</h6>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Row -->
+                        </div>
+                        <!-- column  -->
+                        <!-- column  -->
+                        <div class="col-lg-3 mb-4">
+                            <!-- Row -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="assets/img/clients/11.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <div class="pt-2">
+                                        <h5 class="mt-4 font-weight-medium mb-0" style="color:#fff">Lensa Gudina</h5>
+                                        <h6 class="subtitle mb-3" style="color:#fff">Director of Programs</h6>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Row -->
+                        </div>
+                        <!-- column  -->
+                        <!-- column  -->
+                        <div class="col-lg-3 mb-4">
+                            <!-- Row -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="assets/img/clients/11.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <div class="pt-2">
+                                        <h5 class="mt-4 font-weight-medium mb-0" style="color:#fff">Lensa Gudina</h5>
+                                        <h6 class="subtitle mb-3" style="color:#fff">Construction Manager</h6>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Row -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="showmoreteam"><a href="#" class="btn-get-started scrollto showmoreteam" data-target=".bd-example-modal-lg" data-toggle="modal" >Show More</a></p>
+            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+
+                        <div class="py-5 team4">
+                            <div class="container">
+                                <div class="row justify-content-center mb-4">
+                                    <div class="col-md-7 text-center">
+                                        <h3 class="mb-3">Livelihood Officer</h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <!-- column  -->
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- Row -->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img src="assets/img/clients/11.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <div class="pt-2">
+                                                    <h5 class="mt-4 font-weight-medium mb-0">Lensa Gudina</h5>
+                                                    <h6 class="subtitle mb-3">Education Senior Officer</h6>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Row -->
+                                    </div>
+                                    <!-- column  -->
+                                    <!-- column  -->
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- Row -->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img src="assets/img/clients/11.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <div class="pt-2">
+                                                    <h5 class="mt-4 font-weight-medium mb-0">Lensa Gudina</h5>
+                                                    <h6 class="subtitle mb-3">CEO</h6>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Row -->
+                                    </div>
+                                    <!-- column  -->
+                                    <!-- column  -->
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- Row -->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img src="assets/img/clients/11.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <div class="pt-2">
+                                                    <h5 class="mt-4 font-weight-medium mb-0">Lensa Gudina</h5>
+                                                    <h6 class="subtitle mb-3">CEO</h6>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Row -->
+                                    </div>
+                                    <!-- column  -->
+                                    <!-- column  -->
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- Row -->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img src="assets/img/clients/11.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <div class="pt-2">
+                                                    <h5 class="mt-4 font-weight-medium mb-0">Lensa Gudina</h5>
+                                                    <h6 class="subtitle mb-3">CEO</h6>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Row -->
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <!-- column  -->
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- Row -->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img src="assets/img/clients/11.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <div class="pt-2">
+                                                    <h5 class="mt-4 font-weight-medium mb-0">Lensa Gudina</h5>
+                                                    <h6 class="subtitle mb-3">CEO</h6>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Row -->
+                                    </div>
+                                    <!-- column  -->
+                                    <!-- column  -->
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- Row -->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img src="assets/img/clients/11.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <div class="pt-2">
+                                                    <h5 class="mt-4 font-weight-medium mb-0">Lensa Gudina</h5>
+                                                    <h6 class="subtitle mb-3">CEO</h6>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Row -->
+                                    </div>
+                                    <!-- column  -->
+                                    <!-- column  -->
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- Row -->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img src="assets/img/clients/11.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <div class="pt-2">
+                                                    <h5 class="mt-4 font-weight-medium mb-0">Lensa Gudina</h5>
+                                                    <h6 class="subtitle mb-3">CEO</h6>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Row -->
+                                    </div>
+                                    <!-- column  -->
+                                    <!-- column  -->
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- Row -->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img src="assets/img/clients/11.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <div class="pt-2">
+                                                    <h5 class="mt-4 font-weight-medium mb-0">Lensa Gudina</h5>
+                                                    <h6 class="subtitle mb-3">CEO</h6>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Row -->
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <!-- column  -->
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- Row -->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img src="assets/img/clients/11.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <div class="pt-2">
+                                                    <h5 class="mt-4 font-weight-medium mb-0">Lensa Gudina</h5>
+                                                    <h6 class="subtitle mb-3">CEO</h6>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Row -->
+                                    </div>
+                                    <!-- column  -->
+                                    <!-- column  -->
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- Row -->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img src="assets/img/clients/11.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <div class="pt-2">
+                                                    <h5 class="mt-4 font-weight-medium mb-0">Lensa Gudina</h5>
+                                                    <h6 class="subtitle mb-3">CEO</h6>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Row -->
+                                    </div>
+                                    <!-- column  -->
+                                    <!-- column  -->
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="container">
+
+
+
+              <div class="section-title" data-aos="fade-down">
+                <span>Team</span>
+                <h2 style="color:black">Team</h2>
+                <p>  These are Team Leaders under GTF </p>
+              </div>
+
+              <section class="slidecarousel">
+                         <div id = "carouselwithIndicators" class = "carousel slide " data-ride = "carousel" data-interval = 3000>
+                          <div class ="carousel-inner">
+                             <div class = "carousel-item active">
+                                  <div class="container">
+                                    <div class="row">
+
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                          <img src="assets/img/clients/1.jpg" class="img-fluid roundimg" alt="">
+                                          <div class="nameofteam">
+                                            <p>Aster Gudina</p>
+                                            <p>Aster Gudina</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <img src="assets/img/clients/2.jpg" class="img-fluid roundimg" alt="">
+                                        <div class="nameofteam">
+                                          <p>Aster Gudina</p>
+                                          <p>Aster Gudina</p>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <img src="assets/img/clients/3.jpg" class="img-fluid roundimg" alt="">
+                                        <div class="nameofteam">
+                                          <p>Aster Gudina</p>
+                                          <p>Aster Gudina</p>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <img src="assets/img/clients/4.jpg" class="img-fluid roundimg" alt="">
+                                        <div class="nameofteam">
+                                          <p>Aster Gudina</p>
+                                          <p>Aster Gudina</p>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                          <img src="assets/img/clients/5.jpg" class="img-fluid roundimg" alt="">
+                                          <div class="nameofteam">
+                                            <p>Aster Gudina</p>
+                                            <p>Aster Gudina</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <img src="assets/img/clients/6.jpg" class="img-fluid roundimg" alt="">
+                                        <div class="nameofteam">
+                                          <p>Aster Gudina</p>
+                                          <p>Aster Gudina</p>
+                                      </div>
+                                    </div>
+
+
+                                    </div>
+
+                                  </div>
+
+                             </div>
+
+                             <div class = "carousel-item">
+
+                                  <div class="container">
+
+                                    <div class="row">
+
+
+                                                            <div class="col-lg-2 col-md-4 col-6">
+                                                                  <img src="assets/img/clients/5.jpg" class="img-fluid roundimg" alt="">
+                                                                  <div class="nameofteam">
+                                                                    <p>Aster Gudina</p>
+                                                                    <p>Aster Gudina</p>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-lg-2 col-md-4 col-6">
+                                                                <img src="assets/img/clients/6.jpg" class="img-fluid roundimg" alt="">
+                                                                <div class="nameofteam">
+                                                                  <p>Aster Gudina</p>
+                                                                  <p>Aster Gudina</p>
+                                                              </div>
+                                                            </div>
+
+                                                            <div class="col-lg-2 col-md-4 col-6">
+                                                                <img src="assets/img/clients/7.jpg" class="img-fluid roundimg" alt="">
+                                                                <div class="nameofteam">
+                                                                  <p>Aster Gudina</p>
+                                                                  <p>Aster Gudina</p>
+                                                              </div>
+                                                            </div>
+
+                                                            <div class="col-lg-2 col-md-4 col-6">
+                                                                <img src="assets/img/clients/8.jpg" class="img-fluid roundimg" alt="">
+                                                                <div class="nameofteam">
+                                                                  <p>Aster Gudina</p>
+                                                                  <p>Aster Gudina</p>
+                                                              </div>
+                                                            </div>
+
+                                    </div>
+
+                                  </div>
+
+                             </div>
+                             <div class = "carousel-item">
+
+
+                                  <div class="container">
+
+                                    <div class="row">
+
+
+                                                            <div class="col-lg-3 col-md-4 col-6">
+                                                                  <img src="assets/img/clients/9.jpg" class="img-fluid roundimg" alt="">
+                                                                  <div class="nameofteam">
+                                                                    <p>Aster Gudina</p>
+                                                                    <p>Aster Gudina</p>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-lg-3 col-md-4 col-6">
+                                                                <img src="assets/img/clients/10.jpg" class="img-fluid roundimg" alt="">
+                                                                <div class="nameofteam">
+                                                                  <p>Aster Gudina</p>
+                                                                  <p>Aster Gudina</p>
+                                                              </div>
+                                                            </div>
+
+
+
+                                    </div>
+
+                                  </div>
+
+                             </div>
+                          </div>
+
+
+                        </div>
+                        </section>
+
+
+
+            </div> -->
+        </section><!-- End Team Section -->
+        <!-- ======= Pricing Section ======= -->
+        <section id="pricing" class="pricing">
+
+        </section><!-- End Pricing Section -->
+
+        <!-- ======= Testimonials Section
+      <section id="testimonials" class="testimonials">
+        <div class="container">
+
+          <div class="owl-carousel testimonials-carousel" data-aos="zoom-in">
+
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+              <h3>Melkamu Belay</h3>
+              <h4>...........</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+              <h3>Tolera kidanu</h3>
+              <h4>.............</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+              <h3>Aster Gudina</h3>
+              <h4>Store Owner</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+              <h3>lee</h3>
+              <h4>ceo</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+              <h3>Marta Biratu</h3>
+              <h4>Entrepreneur</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+      End Testimonials Section -->
+
+
+
+
+        <!-- ======= Contact Us Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-down">
+                    <span>Contact Us</span>
+                    <h2 style="color:black">Contact Us</h2>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-delay="100">
+                        <div class="info-box">
+                            <i class="bx bx-map"></i>
+                            <h3>Our Address</h3>
+                            <p>
+                                Addis Ababa, Bole Subcity Wereda 3
+                                <br> Yerer Bere Street
+                                <br>House No 999
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+                        <div class="info-box">
+                            <i class="bx bx-envelope"></i>
+                            <h3>Social Media</h3>
+                            <p>Email : gutufo@gmail.com<br</p>
+                            <p>  gudinatumsafound@gudinatumsa<br>foundation.org</p>
+
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                        <div class="info-box">
+                            <i class="bx bx-phone-call"></i>
+                            <h3>Call Us</h3>
+                            <p>+2511615708<br>+2519203957<br>+251116477782</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="map"></div>
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="form-row">
+                        <div class="col-md-6 form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validate"></div>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validate"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validate"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                        <div class="validate"></div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                    </div>
+                    <div class="text-center"><button type="submit">Send Message</button></div>
+                </form>
+
+            </div>
+        </section><!-- End Contact Us Section -->
+
+    </main><!-- End #main -->
+
+    <!---sdsdsdsdsd-->
+
+
+    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-header">
+
+            </div>
+            <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+
+                    <img src="assets/img/about/sorry.jpg" alt="" style="width:100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--sdsdsdsd-->
+
+    <!-- ======= Footer ======= -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>GTF</h3>
+                        <p>   Addis Ababa, Bole Subcity<br>
+                            Yerer Bere Street<br>
+                            Woreda 14<br>
+                            House No.999<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#service">Services</a></li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Women empowerment</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Education</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Water development</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Medical mission</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Environment</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Social Networks</h4>
+                        <p>See more of Gudina Tumsa Foundation on our Social media Networks</p>
+                        <div class="social-links mt-3">
+                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                            <a href="https://www.facebook.com/gudinatumsafoundation" class="facebook"><i class="bx bxl-facebook"></i></a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-4">
+            <div class="copyright">
+                &copy; Copyright <strong><span>GTF</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/plato-responsive-bootstrap-website-template/ -->
+
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+
+
+
+
+
+
+
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
